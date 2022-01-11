@@ -7,52 +7,52 @@ public class LC17 {
     public List<String> letterCombinations(String digits) {
         if(digits.length() == 0) return new ArrayList<>();
 
-        Map<String, List<String>> digitalMap = new HashMap<>() {
+        Map<String, List<String>> digitalMap = new HashMap<String, List<String>>() {
             {
-                put("2", new ArrayList<>(){{
+                put("2", new ArrayList<String>(){{
                     add("a");
                     add("b");
                     add("c");
                 }});
 
-                put("3", new ArrayList<>(){{
+                put("3", new ArrayList<String>(){{
                     add("d");
                     add("e");
                     add("f");
                 }});
 
-                put("4", new ArrayList<>(){{
+                put("4", new ArrayList<String>(){{
                     add("g");
                     add("h");
                     add("i");
                 }});
 
-                put("5", new ArrayList<>(){{
+                put("5", new ArrayList<String>(){{
                     add("j");
                     add("k");
                     add("l");
                 }});
 
-                put("6", new ArrayList<>(){{
+                put("6", new ArrayList<String>(){{
                     add("m");
                     add("n");
                     add("o");
                 }});
 
-                put("7", new ArrayList<>(){{
+                put("7", new ArrayList<String>(){{
                     add("p");
                     add("q");
                     add("r");
                     add("s");
                 }});
 
-                put("8", new ArrayList<>(){{
+                put("8", new ArrayList<String>(){{
                     add("t");
                     add("u");
                     add("v");
                 }});
 
-                put("9", new ArrayList<>(){{
+                put("9", new ArrayList<String>(){{
                     add("w");
                     add("x");
                     add("y");
